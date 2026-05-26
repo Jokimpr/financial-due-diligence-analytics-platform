@@ -1,0 +1,11 @@
+# Block local analytical database files completely
+*.duckdb
+*.duckdb.wal
+
+# Block all raw financial and enterprise data folders
+data/raw/
+data/seeds/
+
+# Block system-specific metadata caches
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+due_diligence_profile:
+  outputs:
+    dev:
+      type: duckdb
+      path: due_diligence.duckdb
+      threads: 4
+  target: dev
